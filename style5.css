@@ -1,0 +1,238 @@
+body {
+    background-image: url(5.jpg);
+    opacity: 0.8;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+#topo{
+    background-color: #266319;
+    padding: 0.6vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#divlogo img{
+    width: 12vw;
+    padding-left: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.textfild{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center-login {
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: 20%;
+}
+
+.center-login h1{
+    color: rgb(0, 0, 0);
+}
+
+.card-login {
+    width: 60%;
+    height: 12.46vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.6vw 1.8vw;
+    border-radius: 1.041vw;
+    box-shadow: 0vw 0.52vw 2.08vw #000000c4;
+    background-color:rgb(234, 248, 244);
+    opacity: 0.8;
+}
+
+.card-login h1 {
+    font-weight: 800;
+    margin: 0;
+    color: black;
+}
+
+.textfild a{
+    color: #000;
+}
+
+#cel{
+    cursor: pointer;
+}
+
+
+
+
+#voltar{
+    margin-top: -1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.15vw;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+#rodape{
+    background-color: #266319;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5vw;
+}
+
+#rodtopo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0.25vw;
+}
+
+#divisao{
+    background-color: #a2b99d;
+    width: 20vw;
+    height: 0.04vw;
+    margin-bottom: 0.25vw;
+}
+
+#instaedit{
+    font-size:  0.5vw;
+    background-color: #266319;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.arroba{
+    color: #fff;
+}
+
+#rodape a{
+    text-decoration: none;
+}
+
+#rodape img{
+
+    width: 8vw;
+}
+
+#insta{
+    cursor: pointer;
+}
+
+#tel{
+    cursor: pointer;
+}
+
+#email{
+    cursor: pointer;
+}
+
+.editrodape1{
+    width: 4.7vw;
+}
+
+.editrodape2{
+    width: 3vw;
+}
+
+.editrodape3{
+    width: 3vw;
+}
+
+.ajusta{
+    color: #fff;
+}
+
+
+
+
+
+
+@media (max-width: 576px){
+    #topo{
+        display: flex;
+        justify-content: center;
+    }
+
+    #divlogo img{
+        width: 100%;
+    }
+
+    .card-login{
+        height: 65%;
+        width: 160%;
+    }
+
+    #rodtopo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 110%;
+    }
+
+    #rodtopo img{
+        width: 65%;
+    }
+
+    .editrodape1{
+        padding: 3%;
+    }
+
+    .editrodape2{
+        padding: 3%;
+    }
+
+    .editrodape3{
+        padding: 3%;
+    }
+
+    #divisao{
+        padding: 0.26%;
+        border-radius: 2%;
+        width: 60%;
+    }
+
+    #instaedit{
+        font-size: 50%;
+    }
+}

@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 7.7vw;
+    margin-top: 2vw;
+}
+
+.logo img{
+    width: 16vw;
+}
+
+
+.texto{
+    color: white;
+    margin-bottom: 7.7vw;
+    width: 51.7%;
+    text-align: justify;
+    margin-left: 24.15%;
+    font-size: 1.15vw;
+}
+
+
+.voltar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vw;
+    font-size: 1.15vw;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.voltar a{
+    text-decoration: underline;
+    color: white;
+}
+
+.voltar label{
+    cursor: pointer;
+}
+
+
+@media (max-width: 576px){
+    .logo img{
+        width: 48%;
+    }
+
+    .logo{
+        margin-bottom: 25%;
+    }
+
+    .texto{
+        font-size: 4vw;
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 29%;
+    }
+
+    .voltar{
+        font-size: 129%;
+    }
+}

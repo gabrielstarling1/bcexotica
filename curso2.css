@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 3vw;
+    margin-top: 2vw;
+}
+
+.logo img{
+    width: 16vw;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vw;
+}
+
+.images img{
+    width: 30vw;
+}
+
+#a{
+    padding: 1.5vw;
+}
+
+
+#b{
+    padding: 1.5vw;
+}
+
+.voltar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.15vw;
+    font-weight: 500;
+}
+
+.voltar a{
+    text-decoration: underline;
+    color: white;
+}
+
+.voltar label{
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 576px){
+    .logo img{
+        width: 48%;
+    }
+
+    .logo{
+        margin-bottom: 12.5%;
+    }
+
+    .images{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .images img{
+        width: 75%;
+    }
+
+    .images{
+        margin-bottom: 14.5%;
+    }
+
+    .voltar{
+        font-size: 129%;
+    }
+}
